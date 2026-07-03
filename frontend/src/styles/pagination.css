@@ -1,0 +1,30 @@
+.testimonial-swiper {
+  position: relative;
+  padding-bottom: 20px !important;
+}
+.testimonial-swiper .swiper-pagination {
+  bottom: 0 !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  width: 20px !important;
+  height: 5px !important;
+
+  border-radius: 999px !important;
+
+  background: #d1d5db !important;
+
+  opacity: 1 !important;
+
+  transition: all 0.3s ease;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  background: #f59e0b !important;
+  width: 28px !important;
+}
